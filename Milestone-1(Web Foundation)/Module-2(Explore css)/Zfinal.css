@@ -1,0 +1,24 @@
+*{
+    margin: 7px;
+}
+.at{
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: underline;
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: bisque;
+    border-radius: 15px;
+    padding: 20px;
+}
+.aboutp{
+    color:rgb(80, 76, 76);
+}
+.t{
+    color:brown;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+}
