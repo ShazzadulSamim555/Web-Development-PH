@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <link rel="stylesheet" href="style/style.css">
+    <style>
+        table {
+            border-collapse: collapse;
+            ;
+        }
+
+        td,
+        th {
+            border: 1px solid black;
+            padding: 10px 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="nav-ul">
+               <li class="nav-li"><a href="audio-video.html">Media</a></li>
+               <li class="nav-li"><a href="blog.html">Blog</a></li>
+               <li class="nav-li"><a href="center.html">Center</a></li>
+               <li class="nav-li"><a href="flex-box.html">Flex-box</a></li>
+               <li class="nav-li"><a href="form.html">Form</a></li>
+               <li class="nav-li"><a href="table.html">Table</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div>
+        <h1>About table info</h1>
+        <ul>
+            <li>table head: thead</li>
+            <li>table row: trow</li>
+            <li>table cell: tcell</li>
+            <li>table body: tbody</li>
+            <li>table data: tdata</li>
+            <li>table footer: tfoot</li>
+        </ul>
+    </div>
+
+    <div>
+        <table>
+            <caption>All Employees</caption>
+            <thead>
+                <tr>
+                    <th>No.</th>
+                    <th>Name</th>
+                    <th>Occupation</th>
+                </tr>
+            </thead>
+
+
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>samim</td>
+                    <td>web developer</td>
+                </tr>
+
+                <tr>
+                    <td>2</td>
+                    <td>rahim</td>
+                    <td>software engineer</td>
+                </tr>
+
+                <tr>
+                    <td>3</td>
+                    <td>karim</td>
+                    <td>data analyst</td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <td colspan="2">Total=3</td>
+            </tfoot>
+        </table>
+    </div>
+</body>
+
+</html>

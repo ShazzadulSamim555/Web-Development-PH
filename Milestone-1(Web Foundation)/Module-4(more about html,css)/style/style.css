@@ -1,0 +1,15 @@
+.nav-ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+
+}
+.nav-li a{
+    text-decoration: none;
+    color: black;
+}
+.nav-li:hover{
+    background-color: aquamarine;
+    padding: 10px;
+    border-radius: 20px;
+}
