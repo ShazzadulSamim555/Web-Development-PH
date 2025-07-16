@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a{
+            text-decoration: none;
+        }
+        .form-container{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+        }
+        .form{
+            display: flex;
+            flex-direction: column;
+            gap:20px;
+            width:40%;
+
+        }
+        .form input{
+            display: block;
+            
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav style="display: flex; justify-content: space-around;">
+            <div style="display: flex; gap:20px">
+                <a href="">Blog</a>
+                <a href="">Contact</a>
+                <a href="">Services</a>
+                <a href="">Care +</a>
+            </div>
+            <a href="">Log in</a>
+        </nav>
+    </header>
+
+    <main class="form-container">
+        <div class="form">
+            <h1>Form fill-up</h1>
+            <input type="tel" name="" id="" placeholder="Enter Your Username" >
+            <input type="email" placeholder="Enter Your mail id" required>
+            <input type="password" placeholder="Enter Your password" required>
+            <input type="submit" value="Submit">
+        </div>
+    </main>
+</body>
+</html>
