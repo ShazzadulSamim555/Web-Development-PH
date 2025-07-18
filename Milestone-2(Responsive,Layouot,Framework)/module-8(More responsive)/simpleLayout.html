@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>simple way</title>
+
+    <style>
+        .box{
+            background-color: burlywood;
+            padding:30px;
+            border-radius: 15px;
+            gap:20px;
+        }
+        #box-1{
+            grid-area: first;
+        }
+        #box-2{
+            grid-area: second;
+        }
+        #box-3{
+            grid-area: thired;
+        }
+        #box-4{
+            grid-area: fourth;
+        }
+        #box-5{
+            grid-area: fifth;
+        }
+        #box-6{
+            grid-area: sixth;
+        }
+
+        .container{
+            display: grid;
+            gap:20px;
+            grid-template-areas: "first first first first"
+            "second thired thired fourth"
+            "second thired thired fifth"
+            "sixth sixth sixth sixth";
+        }
+
+        @media screen and (max-width:576px){
+            .container{
+                grid-template-areas: "first"
+                "second"
+                "thired"
+                "fourth"
+                "fifth"
+                "sixth";
+            }
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="container">
+            <div class="box" id="box-1">
+                <h4>The Header</h4>
+            </div>
+            <div class="box" id="box-2">
+                <nav style="display: flex; flex-direction: column;">
+                    <a href="">Nav-1</a>
+                    <a href="">Nav-2</a>
+                    <a href="">Nav-3</a>
+                </nav>
+            </div>
+            <div class="box" id="box-3">
+                <h1>Main article area</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga, aspernatur? Itaque ratione praesentium quisquam, sit accusantium nihil beatae laboriosam qui minima amet facere rem dolor obcaecati. Id sint cumque vel.</p>
+            </div>
+            <div class="box" id="box-4">
+                <h2>Sidebar</h2>
+            </div>
+            <div class="box" id="box-5">
+                <h2>Advertising</h2>
+            </div>
+            <div class="box" id="box-6">
+                <h3>The Footer</h3>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

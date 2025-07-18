@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid layout</title>
+
+    <style>
+        section{
+            display: flex;
+            justify-content: center;
+        }
+        .container{
+            max-width: 80vw;
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            gap:20px;
+        }
+        .box{
+            background-color: aquamarine;
+            padding:30px;
+            border-radius: 15px;
+        }
+        #box-1{
+            grid-column: span 4;
+        }
+        #box-2{
+            grid-row: span 2;
+        }
+        #box-3{
+            grid-row:span 2;
+        }
+        #box-4{
+            grid-row:span 1;
+        }
+        #box-5{
+            grid-row:span 1;
+        }
+        #box-6{
+            grid-column: span 4;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="container">
+            <div class="box" id="box-1">
+                <h4>The Header</h4>
+            </div>
+            <div class="box" id="box-2">
+                <nav style="display: flex; flex-direction: column;">
+                    <a href="">Nav-1</a>
+                    <a href="">Nav-2</a>
+                    <a href="">Nav-3</a>
+                </nav>
+            </div>
+            <div class="box" id="box-3">
+                <h1>Main article area</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga, aspernatur? Itaque ratione praesentium quisquam, sit accusantium nihil beatae laboriosam qui minima amet facere rem dolor obcaecati. Id sint cumque vel.</p>
+            </div>
+            <div class="box" id="box-4">
+                <h2>Sidebar</h2>
+            </div>
+            <div class="box" id="box-5">
+                <h2>Advertising</h2>
+            </div>
+            <div class="box" id="box-6">
+                <h3>The Footer</h3>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
