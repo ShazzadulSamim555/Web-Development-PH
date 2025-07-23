@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Class</title>
+    <style>
+        
+        .input1:hover{
+            background-color: blue;
+            color:white
+        }
+        .input2:focus{
+            color:blue;
+            padding:10px;
+            border-radius:  20px;;
+        }
+        .input3:focus{
+            color:aqua;
+            padding: 8px;
+            border-radius: 10px;
+            border:2px solid green;
+        }
+        a:visited{
+            color:rgb(8, 167, 5);
+        }
+        a{
+            display: block;
+        }
+
+        li:first-child{
+            color:brown;
+        }
+        li:last-child{
+            color:green;
+        }
+        li:nth-child(5){
+            color:rgb(10, 104, 141);
+        }
+        li:nth-child(2n){
+            color:cadetblue
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h3 style="color:orange">Pseudo Class</h3>
+        <input class="input1" style="" type="text">
+        <input class="input2" type="text">
+        <input class="input3" type="text">
+        <input class="input4" type="text">
+        <input class="input5" type="text">
+        <input class="input6" type="text">
+
+        <a href="https://www.google.com/search?gs_ssp=eJzj4tTP1TcwMU02T1JgNGB0YPBiS8_PT89JBQBASQXT&q=google&oq=google&gs_lcrp=EgZjaHJvbWUqEggBEC4YJxjHARjRAxiABBiKBTIGCAAQRRhBMhIIARAuGCcYxwEY0QMYgAQYigUyBggCEEUYOzIGCAMQRRg7MgYIBBBFGDwyBggFEEUYPDIGCAYQRRg8MgYIBxAFGEDSAQkxMDI5M2owajeoAgiwAgHxBaRjWJuy6C1Z8QWkY1ibsugtWQ&sourceid=chrome&ie=UTF-8">Google</a>
+        <a href="https://www.youtube.com/">Youtube</a>
+        <a href="https://portal.netcomlearning.com/lp/agent-x/">Netcom Learning</a>
+
+        <ul>
+            <li>List- 1</li>
+            <li>List- 2</li>
+            <li>List- 3</li>
+            <li>List- 4</li>
+            <li>List- 5</li>
+            <li>List- 1</li>
+            <li>List- 2</li>
+            <li>List- 3</li>
+            <li>List- 4</li>
+        </ul>
+    </main>
+</body>
+</html>

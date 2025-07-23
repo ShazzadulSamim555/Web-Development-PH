@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <style>
+        .container{
+            position: relative;
+        }
+        .box{
+            border: 2px solid black;
+            width:200px;
+        }
+        /* #ring{
+            position: relative;
+            top:-50px;
+            left:50px;
+        } */
+        /* #ring{
+            position:absolute;
+            left:30px;
+            top:30px;
+        } */
+        
+        #ring{
+            position: sticky;
+            top:0;
+        }
+        .dummy{
+            border:1px solid black;
+            width:200px;
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <h2>CSS position</h2>
+    <ul>
+        <li>Static: Normal</li>
+        <li>Relative: <small>Current position a relative koto toko change hobe and will not leave the current spot</small></li>
+        <li>Absolute: <small>Will lose it's own position and will move based on the root</small></li>
+    </ul>
+    <main class="container">
+        <div id="boy" class="box"><img src="swim/boy.svg" alt=""></div>
+        <div id="ring" class="box"><img src="swim/ring.svg" alt=""></div>
+        <div id="water" class="box"><img src="swim/water.svg" alt=""></div>
+
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+    </main>
+</body>
+</html>
