@@ -22,6 +22,25 @@
             padding: 10px;
         }
 
+        .hover-gradient{
+            transition:all 0.5s ease-in-out
+        }
+        .hover-gradient:hover{
+            background: linear-gradient(90deg,rgba(39, 102, 150, 0.61) 0%, rgba(55, 99, 166, 1) 50%, rgba(90, 8, 128, 1) 100%);
+            color:white;
+            transform: scale(1.05);
+
+            
+        }
+        .card{
+            transition:all 0.5s ease-in-out
+        }
+        .card:hover{
+            box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+            padding:2rem;
+            transition:all 0.5s ease-in-out
+        }
+
         .footer-a {
             color: rgb(81, 81, 81);
             font-size: 0.9rem;
@@ -58,8 +77,8 @@
                         <img class="w-4 lg:w-7" src="https://img.icons8.com/?size=100&id=15438&format=png" alt="">
                         <a class="ancor font-bold" href="">Log in</a>
                     </div>
-                    <div>
-                        <button class="text-sm bg-blue-400 text-white px-4 py-3 rounded-lg">Donate Now</button>
+                    <div class="">
+                        <button class="hover-gradient text-sm bg-blue-400 text-white px-4 py-3 rounded-lg">Donate Now</button>
                     </div>
                 </div>
             </nav>
@@ -75,8 +94,8 @@
                     <p class="text-xl md:text-2xl lg:text-3xl text-blue-950">Programming Hero</p>
 
                     <div class="flex gap-3 md:gap-5">
-                        <button class="text-sm bg-blue-400 text-white px-4 py-3 rounded-lg">Get token</button>
-                        <button class="text-sm border px-4 py-3 rounded-lg">white paper</button>
+                        <button class="hover-gradient text-sm bg-blue-400 text-white px-4 py-3 rounded-lg">Get token</button>
+                        <button class="hover-gradient text-sm border px-4 py-3 rounded-lg">white paper</button>
                     </div>
                 </div>
                 <div class="flex-1 flex justify-end ">
@@ -99,7 +118,7 @@
             <!-- all card are here -->
             <div class="lg:w-9/12 mx-2 lg:mx-auto py-3 md:py-10 flex flex-col gap-6 md:gap-12 lg:gap-20 bg-white">
                 <section class="px-8 md:px-15 grid grid-cols-2 md:grid-cols-3 gap-10">
-                    <div class="text-center flex flex-col justify-center items-center gap-3">
+                    <div class="card text-center flex flex-col justify-center items-center gap-3">
                         <div>
                             <img class="w-12" src="https://img.icons8.com/?size=100&id=mcCRHk2xvR7f&format=gif" alt="">
                         </div>
@@ -109,7 +128,7 @@
                             Node.js</p>
                         <a class="text-blue-500" href="">Learn Morn <span class="text-blue-700">></span></a>
                     </div>
-                    <div class="text-center flex flex-col justify-center items-center gap-3">
+                    <div class="card text-center flex flex-col justify-center items-center gap-3">
                         <div>
                             <img class="w-12" src="https://img.icons8.com/?size=100&id=qtVfONaVBJkO&format=gif" alt="">
                         </div>
@@ -119,7 +138,7 @@
                             Node.js</p>
                         <a class="text-blue-500" href="">Learn Morn <span class="text-blue-700">></span></a>
                     </div>
-                    <div class="text-center flex flex-col justify-center items-center gap-3">
+                    <div class="card text-center flex flex-col justify-center items-center gap-3">
                         <div>
                             <img class="w-12" src="https://img.icons8.com/?size=100&id=D7ZPV00T4bJv&format=gif" alt="">
                         </div>
@@ -129,7 +148,7 @@
                             Node.js</p>
                         <a class="text-blue-500" href="">Learn Morn <span class="text-blue-700">></span></a>
                     </div>
-                    <div class="text-center flex flex-col justify-center items-center gap-3">
+                    <div class="card text-center flex flex-col justify-center items-center gap-3">
                         <div>
                             <img class="w-12" src="https://img.icons8.com/?size=100&id=MOgfTL97LKST&format=gif" alt="">
                         </div>
@@ -139,7 +158,7 @@
                             Node.js</p>
                         <a class="text-blue-500" href="">Learn Morn <span class="text-blue-700">></span></a>
                     </div>
-                    <div class="text-center flex flex-col justify-center items-center gap-3">
+                    <div class="card text-center flex flex-col justify-center items-center gap-3">
                         <div>
                             <img class="w-12" src="https://img.icons8.com/?size=100&id=61850&format=png" alt="">
                         </div>
@@ -149,7 +168,7 @@
                             Node.js</p>
                         <a class="text-blue-500" href="">Learn Morn <span class="text-blue-700">></span></a>
                     </div>
-                    <div class="text-center flex flex-col justify-center items-center gap-3">
+                    <div class="card text-center flex flex-col justify-center items-center gap-3">
                         <div>
                             <img class="w-12" src="https://img.icons8.com/?size=100&id=58841&format=png" alt="">
                         </div>
@@ -221,7 +240,7 @@
                     </div>
                     <div class="flex-1 flex gap-5 items-center justify-center">
                         <img class="w-28 " src="https://img.icons8.com/?size=48&id=Pp4aFcYLLRYp&format=gif" alt="">
-                        <button class="text-indigo-950 font-bold bg-white md:p-3.5 rounded-xl md:rounded-3xl">CONTACT US
+                        <button class="hover-gradient text-indigo-950 font-bold bg-white md:p-3.5 rounded-xl md:rounded-3xl">CONTACT US
                             NOW</button>
                     </div>
                 </div>
