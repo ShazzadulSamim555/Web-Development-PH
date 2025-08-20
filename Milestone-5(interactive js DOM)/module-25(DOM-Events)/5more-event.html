@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More Event</title>
+</head>
+<body>
+    <h1>More event here</h1>
+
+    <button id="show">Show</button>
+    <button id="show2">Show</button>
+    <button id="show3">Show</button>
+    <button id="show">Show</button>
+
+    <input id="name" type="text" placeholder="Enter Name">
+    <input id="email" type="text" placeholder="Enter Email">
+
+    <br>
+    <input id="text" type="text">
+    <script>
+        document.getElementById('show').addEventListener('mouseenter', function (){
+            console.log('Mouse triggered');
+        })
+
+        document.getElementById('show2').addEventListener('mousemove', function (){
+            console.log('Mouse triggered');
+        })
+
+        document.getElementById('show3').addEventListener('mouseout', function (){
+            console.log('Mouse triggered');
+        })
+
+
+        document.getElementById('name').addEventListener('focus' , function (){
+            console.log('User about write to name');
+        });
+        document.getElementById('email').addEventListener('focus' , function (){
+            console.log('User about write to email');
+        });
+
+        document.getElementById('name').addEventListener('blur' , function (){
+            console.log('User done with name');
+        });
+        document.getElementById('email').addEventListener('blur' , function (){
+            console.log('User done with email');
+        });
+
+
+
+
+        // document.getElementById('text').addEventListener('keydown', function (word){
+        //     console.log('Typing', word.target.value);
+        // })
+
+        document.getElementById('text').addEventListener('keyup', function (word){
+            console.log('Typing', word.target.value);
+        })
+    </script>
+</body>
+</html>

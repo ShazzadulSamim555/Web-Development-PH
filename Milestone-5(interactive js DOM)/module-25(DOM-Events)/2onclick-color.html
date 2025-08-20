@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Onclick Color</title>
+</head>
+
+<body>
+    <h1>You Can Change this website's Background color by clicking the Button</h1>
+
+    <button onclick="console.log('Red Color'), makeRed()">Red</button>
+    <button onclick="makeBlue()">Blue</button>
+    <button id="Yellow">Yellow</button>
+
+    <button id="Purple">Purple</button>
+
+    <button id="Green">Green</button>
+
+    <!-- <script src="2onclickColor.js"></script> -->
+
+    <script>
+        const makePurple = document.getElementById('Purple');
+        function purple() {
+            document.body.style.backgroundColor = 'purple';
+        }
+
+        makePurple.onclick = purple;
+
+
+        const makeGreen = document.getElementById('Green');
+        makeGreen.addEventListener('click', function () {
+            document.body.style.backgroundColor = 'green';
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Element by id</title>
+</head>
+<body>
+    <header>
+        <h1 id="name">My name is</h1>
+        <h1>Shazzadul Islam</h1>
+        <h1>Samim</h1>
+
+        <ul>
+            <li>rakib</li>
+            <li id="2nd">Shakib</li>
+            <li>Lokib</li>
+            <li id="4th">Mofiz</li>
+        </ul>
+        <p>Hello world, now i'm a learner of DOM</p>
+
+        <h2>My Favorite Food is here:- </h2>
+        <ol>
+            <li>Kacchi</li>
+            <li class="international">Morog Polaw</li>
+            <li class="international">Burger</li>
+            <li class="international">Pizza</li>
+            <li>Singara</li>
+            <li>Chomocha</li>
+        </ol>
+    </header>
+
+    <script>
+        const name= document.getElementById('name');
+        console.log(name.innerText);
+        name.innerText = "What's your name?";
+        console.log(name.innerText);
+
+
+        const internationals= document.getElementsByClassName('international');
+        for(const international of internationals){
+            console.log(international.innerText);
+        }
+
+        console.log(document.getElementsByClassName('inter'));
+        console.log(document.getElementById('inter'));
+    </script>
+
+</body>
+</html>

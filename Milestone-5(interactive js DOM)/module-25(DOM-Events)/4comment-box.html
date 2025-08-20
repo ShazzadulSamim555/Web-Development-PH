@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comment Box</title>
+    <style>
+        .comment-style{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: large;
+            font-weight: 800;
+            width:50%;
+            background-color: cadetblue;
+            border-radius: 10px;
+            padding:20px;
+        }
+
+        .comment-now{
+            background-color: rgb(101, 55, 129);
+            color:white;
+            border-radius: 15px;
+            padding:10px;
+            border:none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">All Comments are includes here:-</h1>
+
+    <div class="comment-container">
+        <p id="comment-text" class="comment-style">My Name is Shazzadul Islam Samim</p>
+
+    </div>
+    <textarea style="border-radius: 10px;" name="" id="text-box" cols="40" rows="5"></textarea>
+    <br>
+    <button id="btn-comment" class="comment-now">Comment Now</button>
+
+
+    <script>
+        const btnComment= document.getElementById('btn-comment');
+        btnComment.addEventListener('click', function (){
+            //console.log('clicked');
+            const textBox= document.getElementById('text-box');
+            const textValue= textBox.value;
+
+            const newComment=document.createElement('p');
+            newComment.classList.add('comment-style')
+            newComment.innerText= textValue;
+
+
+            const commentContainer= document.querySelector('.comment-container');
+            console.log(commentContainer);
+            commentContainer.appendChild(newComment);
+
+            textBox.value='';
+        })
+    </script>
+</body>
+</html>

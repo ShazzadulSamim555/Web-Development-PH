@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body>
+    <header>
+        <h1>My name is</h1>
+        <h1>Shazzadul Islam</h1>
+        <h1>Samim</h1>
+
+        <ul>
+            <li>rakib</li>
+            <li>Shakib</li>
+            <li>Lokib</li>
+            <li>Mofiz</li>
+        </ul>
+        <p>Hello world, now i'm a learner of DOM</p>
+    </header>
+
+    <script>
+        const allHeading= document.getElementsByTagName('h1');
+        console.log(allHeading);
+
+        const allList= document.getElementsByTagName('li');
+        console.log(allList);
+        for(const list of allList){
+            console.log(list.innerText);
+        }
+    </script>
+
+    <script>
+        console.log("First console by using DOM");
+        console.log(document);
+    </script>
+</body>
+</html>

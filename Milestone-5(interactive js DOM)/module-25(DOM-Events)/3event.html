@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Here we change any text by using event handler</h1>
+    <p id="no-update">No Update is there</p>
+    <button id="update-text">Update</button>
+
+    <br>
+    <br>
+    <br>
+    <h1>My Name is <span id="gap">...........</span></h1>
+    <input id="enter-name" placeholder="Enter Your Name" type="text">
+    <button id="enter-btn">Enter</button>
+
+    <script>
+        const updateText = document.getElementById('update-text');
+        updateText.addEventListener('click', function () {
+            console.log('Update button');
+            const noUpdate = document.getElementById('no-update');
+            noUpdate.innerText = 'Text Updated Now.';
+        })
+    </script>
+
+
+    <script>
+        const enterBtn= document.getElementById('enter-btn');
+        enterBtn.addEventListener('click', function (){
+            const enterName= document.getElementById('enter-name');
+            const name= enterName.value;
+            const Gap= document.getElementById('gap');
+            Gap.innerText= name;
+        })
+    </script>
+</body>
+
+</html>

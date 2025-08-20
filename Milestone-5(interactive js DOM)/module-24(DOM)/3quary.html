@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>quary Selector</title>
+</head>
+<body>
+    <div class="container">
+        <h1 id="name">My name is</h1>
+        <h1>Shazzadul Islam</h1>
+        <h1>Samim</h1>
+
+        <ul>
+            <li>rakib</li>
+            <li id="2nd">Shakib</li>
+            <li>Lokib</li>
+            <li id="4th">Mofiz</li>
+        </ul>
+        <p>Hello <span>Span 1</span> world, now i'm a <span>Span 2</span> learner of DOM</p>
+
+        <h2>My Favorite <span>span 3</span> Food is here:- </h2>
+        <ol>
+            <li>Kacchi</li>
+            <li class="international">Morog Polaw</li>
+            <li class="international">Burger</li>
+            <li class="international">Pizza</li>
+            <li>Singara</li>
+            <li>Chomocha</li>
+        </ol>
+    </div>
+
+    <script>
+        const sppan= document.querySelector('.container span');
+        console.log(sppan.innerText);
+
+        const span2= document.querySelectorAll('.container span');
+        for(const span of span2){
+            console.log(span.innerText);
+        }
+    </script>
+</body>
+</html>
