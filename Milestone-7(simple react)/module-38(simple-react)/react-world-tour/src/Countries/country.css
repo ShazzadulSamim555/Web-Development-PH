@@ -1,0 +1,9 @@
+.country{
+    border: 2px solid salmon;
+    border-radius: 15px;
+    margin: 15px;
+
+}
+.visited-country{
+    background-color: peru;
+}

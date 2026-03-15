@@ -1,0 +1,152 @@
+[
+  {
+    "id": 1,
+    "name": "Shakib Al Hasan",
+    "country": "Bangladesh",
+    "allrounder": true,
+    "batting_style": "Left-Hand Bat",
+    "bowl_style": "Slow Left-Arm Orthodox",
+    "price": 95,
+    "player_image": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcTCbjTIedmQdn-KwXhJI2n1cywINB54Nd0gRHJoxd1UCh8m2NWk28NBvuUSuAJEk10SO9Nee0vwotSGiLQ"
+  },
+  {
+    "id": 2,
+    "name": "Tamim Iqbal",
+    "country": "Bangladesh",
+    "allrounder": false,
+    "batting_style": "Left-Hand Bat",
+    "bowl_style": "None",
+    "price": 80,
+    "player_image": "https://plus.unsplash.com/premium_photo-1722351690065-210079a0a82c?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y3JpY2tldGVyc3xlbnwwfHwwfHx8MA%3D%3D&fm=jpg&q=60&w=3000"
+  },
+  {
+    "id": 3,
+    "name": "Andre Russell",
+    "country": "West Indies",
+    "allrounder": true,
+    "batting_style": "Right-Hand Bat",
+    "bowl_style": "Right-Arm Fast",
+    "price": 120,
+    "player_image": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202410/bengal-cricketer-010134930-1x1.jpg?VersionId=zBQMdXkiADXnRfxI3Bjmt9Rf3FbSossp"
+  },
+  {
+    "id": 4,
+    "name": "Mustafizur Rahman",
+    "country": "Bangladesh",
+    "allrounder": false,
+    "batting_style": "Left-Hand Bat",
+    "bowl_style": "Left-Arm Fast-Medium",
+    "price": 75,
+    "player_image": "https://admin.thecricketer.com/weblab/Sites/96c8b790-b593-bfda-0ba4-ecd3a9fdefc2/resources/images/site/banglaprofilesfkhutan.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Dawid Malan",
+    "country": "England",
+    "allrounder": false,
+    "batting_style": "Left-Hand Bat",
+    "bowl_style": "Legbreak",
+    "price": 90,
+    "player_image": "https://admin.thecricketer.com/weblab/sites/96c8b790-b593-bfda-0ba4-ecd3a9fdefc2/resources/images/site/edwards19012301.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Mehidy Hasan Miraz",
+    "country": "Bangladesh",
+    "allrounder": true,
+    "batting_style": "Right-Hand Bat",
+    "bowl_style": "Right-Arm Offbreak",
+    "price": 60,
+    "player_image": "https://pushsports.in/wp-content/uploads/2023/06/DSC08788-scaled.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Rilee Rossouw",
+    "country": "South Africa",
+    "allrounder": false,
+    "batting_style": "Left-Hand Bat",
+    "bowl_style": "None",
+    "price": 85,
+    "player_image": "https://cainternational.co/images/blogs/202411221228082037215902.png"
+  },
+  {
+    "id": 8,
+    "name": "Taskin Ahmed",
+    "country": "Bangladesh",
+    "allrounder": false,
+    "batting_style": "Right-Hand Bat",
+    "bowl_style": "Right-Arm Fast",
+    "price": 70,
+    "player_image": "https://images.augustman.com/wp-content/uploads/sites/6/2024/08/27022717/Snapinsta.app_450359062_18444660301057499_2757230602715680101_n_1080-819x1024.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Naim Sheikh",
+    "country": "Bangladesh",
+    "allrounder": false,
+    "batting_style": "Left-Hand Bat",
+    "bowl_style": "None",
+    "price": 50,
+    "player_image": "https://femalecricket.com/wp-content/uploads/2019/11/Ellyse-Perry-Female-Cricketer-Century.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Sunil Narine",
+    "country": "West Indies",
+    "allrounder": true,
+    "batting_style": "Left-Hand Bat",
+    "bowl_style": "Right-Arm Offbreak",
+    "price": 105,
+    "player_image": "https://plus.unsplash.com/premium_photo-1722351690065-210079a0a82c?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y3JpY2tldGVyc3xlbnwwfHwwfHx8MA%3D%3D&fm=jpg&q=60&w=3000"
+  },
+  {
+    "id": 11,
+    "name": "Litton Das",
+    "country": "Bangladesh",
+    "allrounder": false,
+    "batting_style": "Right-Hand Bat",
+    "bowl_style": "None",
+    "price": 78,
+    "player_image": "https://plus.unsplash.com/premium_photo-1722351690065-210079a0a82c?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y3JpY2tldGVyc3xlbnwwfHwwfHx8MA%3D%3D&fm=jpg&q=60&w=3000"
+  },
+  {
+    "id": 12,
+    "name": "Mohammad Amir",
+    "country": "Pakistan",
+    "allrounder": false,
+    "batting_style": "Left-Hand Bat",
+    "bowl_style": "Left-Arm Fast",
+    "price": 65,
+    "player_image": "https://plus.unsplash.com/premium_photo-1722351690065-210079a0a82c?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y3JpY2tldGVyc3xlbnwwfHwwfHx8MA%3D%3D&fm=jpg&q=60&w=3000"
+  },
+  {
+    "id": 13,
+    "name": "Afif Hossain",
+    "country": "Bangladesh",
+    "allrounder": true,
+    "batting_style": "Left-Hand Bat",
+    "bowl_style": "Right-Arm Offbreak",
+    "price": 45,
+    "player_image": "https://plus.unsplash.com/premium_photo-1722351690065-210079a0a82c?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y3JpY2tldGVyc3xlbnwwfHwwfHx8MA%3D%3D&fm=jpg&q=60&w=3000"
+  },
+  {
+    "id": 14,
+    "name": "Kusal Mendis",
+    "country": "Sri Lanka",
+    "allrounder": false,
+    "batting_style": "Right-Hand Bat",
+    "bowl_style": "None",
+    "price": 72,
+    "player_image": "https://plus.unsplash.com/premium_photo-1722351690065-210079a0a82c?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y3JpY2tldGVyc3xlbnwwfHwwfHx8MA%3D%3D&fm=jpg&q=60&w=3000"
+  },
+  {
+    "id": 15,
+    "name": "Khaled Ahmed",
+    "country": "Bangladesh",
+    "allrounder": false,
+    "batting_style": "Right-Hand Bat",
+    "bowl_style": "Right-Arm Fast-Medium",
+    "price": 40,
+    "player_image": "https://plus.unsplash.com/premium_photo-1722351690065-210079a0a82c?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y3JpY2tldGVyc3xlbnwwfHwwfHx8MA%3D%3D&fm=jpg&q=60&w=3000"
+  }
+]

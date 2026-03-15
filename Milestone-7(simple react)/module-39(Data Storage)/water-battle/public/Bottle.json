@@ -1,0 +1,52 @@
+[
+  {
+    "id": 101,
+    "name": "Eco-Traveler Stainless Steel Bottle",
+    "capacity_ml": 750,
+    "material": "Stainless Steel",
+    "color": "Midnight Blue",
+    "features": ["Double-walled insulation", "Leak-proof screw cap"],
+    "price_usd": 24.99,
+    "image_link": "https://www.theglobo.in/cdn/shop/files/408478989_1087279825787312_6350991607791319671_n.jpg?v=1713196813"
+  },
+  {
+    "id": 102,
+    "name": "Sport-Fit Tritan Water Bottle",
+    "capacity_ml": 1000,
+    "material": "Tritan Plastic (BPA-free)",
+    "color": "Neon Green",
+    "features": ["One-touch open", "Integrated carrying handle", "Measurement markings"],
+    "price_usd": 14.50,
+    "image_link": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXUeXD1cR5gN_clg1QI5BtXj5GZjyNO8GJnQ&s"
+  },
+  {
+    "id": 103,
+    "name": "Glass Infuser Bottle",
+    "capacity_ml": 500,
+    "material": "Borosilicate Glass",
+    "color": "Clear/Bamboo",
+    "features": ["Removable fruit infuser basket", "Bamboo lid", "Protective silicone sleeve"],
+    "price_usd": 19.00,
+    "image_link": "https://img.drz.lazcdn.com/static/bd/p/a23834252f156639cdd36a3aef6ca539.jpg_720x720q80.jpg"
+  },
+  {
+    "id": 104,
+    "name": "Compact Collapsible Silicone Bottle",
+    "capacity_ml": 600,
+    "material": "Food-grade Silicone",
+    "color": "Coral Pink",
+    "features": ["Folds down to 1/3 of its size", "Carabiner clip included", "Freezer safe"],
+    "price_usd": 17.99,
+    "image_link": "https://cdn.shopify.com/s/files/1/0140/5186/8730/files/3_1cd04979-4936-4b92-8a97-a923e602d150.png?v=1726721407"
+  },
+  {
+    "id": 105,
+    "name": "The Executive Thermos",
+    "capacity_ml": 450,
+    "material": "Stainless Steel/Leather",
+    "color": "Matte Black",
+    "features": ["Keeps hot for 12 hours/cold for 24 hours", "Small sipping cup lid", "Non-slip leather grip"],
+    "price_usd": 35.50,
+    "image_link": "https://femora.in/cdn/shop/files/FMSTLTTR-01_1.jpg?v=1713001295"
+  }
+]

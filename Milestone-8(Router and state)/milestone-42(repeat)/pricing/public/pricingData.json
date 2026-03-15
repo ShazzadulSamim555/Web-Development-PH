@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Starter",
+    "price": 25,
+    "features": [
+      "Access to gym floor and equipment",
+      "Standard locker room and showers",
+      "Free high-speed WiFi",
+      "Mobile app for workout tracking",
+      "1 Complimentary fitness orientation",
+      "Open gym access during off-peak hours"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Professional",
+    "price": 50,
+    "features": [
+      "24/7 Unlimited gym access",
+      "All group fitness and yoga classes",
+      "Steam, sauna, and hot tub access",
+      "Personalized nutrition & diet plan",
+      "Monthly body composition analysis",
+      "Discounts on gym merchandise",
+      "Access to all club locations"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Ultimate",
+    "price": 90,
+    "features": [
+      "All Professional features included",
+      "4 Sessions with a Personal Trainer",
+      "Private VIP locker and laundry service",
+      "Daily pre-workout or protein shake",
+      "Complimentary gym bag and towel set",
+      "Bring a guest for free (4x per month)",
+      "Priority booking for special workshops",
+      "Hydro-massage bed sessions"
+    ]
+  }
+]
