@@ -1,26 +1,45 @@
-import React from "react";
+import { GoogleAuthProvider, signInWithPopup, signOut } from "firebase/auth";
+import React, { useState } from "react";
+import { auth } from "../firebase/firebse.config";
+
+const googleProvider = new GoogleAuthProvider();
 
 const Login = () => {
+  const [user, setUser] = useState(null);
+  const handleSign = () => {
+    signInWithPopup(auth, googleProvider)
+      .then((result) => setUser(result.user))
+      .catch((error) => console.log(error));
+  };
+  // console.log(user.displayName);
+
+  const handleSignOut = () => {
+    signOut(auth)
+      .then(() => {
+        console.log("Signout done");
+        setUser(null);
+      })
+      .catch((error) => console.log(error));
+  };
+
   return (
     <div>
-      <div className="card bg-base-100 w-96 shadow-sm">
-        <figure>
-          <img
-            src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-            alt="Shoes"
-          />
-        </figure>
-        <div className="card-body">
-          <h2 className="card-title">Card Title</h2>
-          <p>
-            A card component has a figure, a body part, and inside body there
-            are title and actions parts
-          </p>
-          <div className="card-actions justify-end">
-            <button className="btn btn-primary">Buy Now</button>
-          </div>
+      <h3>Please sign in</h3>
+      {/* <button onClick={handleSign}>Sign in with google</button>
+      <button onClick={handleSignOut}>Sign out</button> */}
+
+      {user ? (
+        <button onClick={handleSignOut}>Sign out</button>
+      ) : (
+        <button onClick={handleSign}>Sign in with google</button>
+      )}
+
+      {user && (
+        <div>
+          <h4>{user.displayName}</h4>
+          <p>Email: {user.email}</p>
         </div>
-      </div>
+      )}
     </div>
   );
 };
