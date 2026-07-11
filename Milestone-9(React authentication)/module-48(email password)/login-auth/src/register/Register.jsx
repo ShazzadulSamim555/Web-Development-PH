@@ -63,6 +63,20 @@ const Register = () => {
           <div className="card-body">
             <form onSubmit={handleRegister}>
               <fieldset className="fieldset">
+                <label className="label">User Name</label>
+                <input
+                  type="text"
+                  className="input"
+                  name="name"
+                  placeholder="Enter User Name"
+                />
+                <label className="label">Upload Photo</label>
+                <input
+                  type="url"
+                  className="input"
+                  name="photo"
+                  placeholder="Enter Photo URL"
+                />
                 <label className="label">Email</label>
                 <input
                   type="email"

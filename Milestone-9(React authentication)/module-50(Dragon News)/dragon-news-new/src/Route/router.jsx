@@ -30,7 +30,7 @@ const router = createBrowserRouter([
   },
   {
     path: 'auth',
-    element: <h2>Authentication</h2>
+    element:``      
   },
   {
     path: 'news',

@@ -22,13 +22,13 @@ const HomeLayout = () => {
       </section>
 
       <main className="grid grid-cols-12 mt-5 gap-5">
-        <aside className="col-span-3">
+        <aside className="col-span-3 sticky h-fit top-2">
           <Leftaside />
         </aside>
-        <section className="col-span-6">
+        <section className="col-span-6 ">
           <Outlet />
         </section>
-        <aside className="col-span-3">
+        <aside className="col-span-3 sticky top-2 h-screen overflow-y-auto scrollbar-none">
           <Rightaside />
         </aside>
       </main>
