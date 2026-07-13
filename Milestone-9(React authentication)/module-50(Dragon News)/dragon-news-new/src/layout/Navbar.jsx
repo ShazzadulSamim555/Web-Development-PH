@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router";
+import { Link, NavLink } from "react-router";
 import { FaUserAlt } from "react-icons/fa";
 
 const Navbar = () => {
@@ -13,7 +13,7 @@ const Navbar = () => {
       </div>
       <div className="flex flex-1 justify-end items-center gap-5">
         <FaUserAlt size={25}/>
-        <button className="btn btn-primary px-7">LogIn</button>
+        <Link to="/auth/login" className="btn btn-primary px-7">LogIn</Link>
       </div>
     </div>
   );
